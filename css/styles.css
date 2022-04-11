@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+h1 {
+  color: cadetblue;
+}
+
+nav {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: cadetblue;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  height: 165px;
+  width: 100%;
+  background-color: cadetblue;
+  margin-top: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 16px;
+  color: white;
+}
+
+.picture {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.picture .flower1 {
+  width: 236px;
+  height: 304px;
+  background-image: url(../images/Unknown-1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.picture .flower2 {
+  width: 236px;
+  height: 304px;
+  background-image: url(../images/Unknown-2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paragraph {
+  width: 1226px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.paragraph .text {
+  margin-bottom: 20px;
+  width: 513px;
+  height: 190px;
+  float: left;
+  margin: 137px;
+}
+.paragraph .texts {
+  width: 513px;
+  height: 190px;
+  float: right;
+}
+
+.banners {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/blog.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.full {
+  padding: 50px;
+}
+.full .girls {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.full .girl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.full .girl-pic {
+  background-color: chartreuse;
+  height: 250px;
+  width: 250px;
+  background-image: url(../images/about-client-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.full .girl-text {
+  width: 600px;
+}
+
+.boy-info {
+  padding: 50px;
+}
+.boy-info .boys {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.boy-info .boy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.boy-info .boy-pic {
+  background-color: chartreuse;
+  height: 250px;
+  width: 250px;
+  background-image: url(../images/about-client-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.boy-info .boy-text {
+  width: 600px;
+}
+
+.logo {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/egypt-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page {
+  padding: 50px;
+}
+.page .pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.page .pic .pic1 {
+  width: 236px;
+  height: 304px;
+  background-color: blue;
+  background-image: url(../images/egypt-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page .pic .pic2 {
+  width: 236px;
+  height: 304px;
+  background-image: url(../images/egypt-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-page {
+  width: 1226px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.product-page .product-text {
+  margin-bottom: 20px;
+  width: 513px;
+  height: 190px;
+  float: left;
+  margin: 137px;
+}
+.product-page .product-text2 {
+  width: 513px;
+  height: 190px;
+  float: right;
+}
+
+.contact-page {
+  padding: 50px;
+}
+.contact-page .contact {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.contact-page .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+.contact-page .contact-pic {
+  margin-right: 30px;
+  height: 304px;
+  width: 450px;
+  background-image: url(../images/france-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-page .contact-pics {
+  height: 304px;
+  width: 450px;
+  margin-right: 30px;
+  background-image: url(../images/france-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logos {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,28 @@
+.page {
+  padding: 50px;
+
+  .pic {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    .pic1 {
+      width: 236px;
+      height: 304px;
+      background-color: blue;
+      background-image: url(../images/egypt-tour-01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .pic2 {
+      width: 236px;
+      height: 304px;
+
+      background-image: url(../images/egypt-tour-03.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}

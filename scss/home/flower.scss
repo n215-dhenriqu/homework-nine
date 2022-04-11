@@ -1,0 +1,48 @@
+.picture {
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+
+  .flower1 {
+    width: 236px;
+    height: 304px;
+    background-image: url(../images/Unknown-1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flower2 {
+    width: 236px;
+    height: 304px;
+    background-image: url(../images/Unknown-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.paragraph {
+  width: 1226px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  //   background-color: chartreuse;
+
+  .text {
+    margin-bottom: 20px;
+    width: 513px;
+    height: 190px;
+    float: left;
+    margin: 137px;
+  }
+
+  .texts {
+    width: 513px;
+    height: 190px;
+    float: right;
+  }
+}
